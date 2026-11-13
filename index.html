@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda Moto Max</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+<div class="encabezado">
+		 <img src="22.png">
+		</div>
+   
+
+    
+	<div class="contenedor-flex">
+
+        <div class="producto">
+          <img src="1.jpg">
+            <h3>Casco para moto</h3>
+            <p>$180.000</p>
+            <button onclick="agregar('Mouse',180.000)">
+			Agregar al carrito 
+			</button>
+			
+        </div>
+
+        <div class="producto">
+            <img src="2.jpg">
+            <h3>Chaqueta para moto</h3>
+            <p>$250.000</p>
+            <button onclick="agregar('Mouse',250.000)">
+			Agregar al carrito 
+			</button>
+			
+        </div>
+
+        <div class="producto">
+            <img src="3.jpg">
+            <h3>Accesorios para moto</h3>
+            <p>$90.000</p>
+           <button onclick="agregar('Mouse',90.000)">
+			Agregar al carrito 
+			</button>
+        
+		</div>
+
+        <div class="producto">
+            <img src="4.jpg">
+            <h3>Guantes para moto</h3>
+            <p>$65.000</p>
+            <button onclick="agregar('Mouse',65.000)">
+			Agregar al carrito 
+			</button>
+        
+		</div>
+
+    </div>
+	
+	<div class="Carrito">
+		<h2> Mi carrito de compras </h2>
+		<ul id="lista-carrito"></ul>
+		<h3> Total:$<span id="total">0</span></h3>
+		
+		<button onclick="vaciarCarrito()">
+		  Vaciar Carrito
+		</button>
+		
+	</div>
+	
+	<script src="script.js"></script>
+    
+	<footer>
+        <p> 2026 MOTO MAX - Tienda de motos</p>
+    </footer>
+
+</body>
+</html>
+

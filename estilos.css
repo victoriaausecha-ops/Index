@@ -1,0 +1,115 @@
+
+body {
+    background-color: #eeeeee;
+    font-family: Arial;
+    margin: 0;
+}
+
+/* ENCABEZADO */
+.encabezado {
+  background-color:black;
+  font-family:Goudy Stout;
+  text-align: center;
+  padding: 10px;
+ } 
+
+.encabezado img {
+    width: 1280px;
+ margin: 0 auto;
+height:400px;
+ }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+/* TITULO */
+h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* PRODUCTOS */
+.productos {
+    text-align: center;
+    margin: 30px auto;
+    width: 90%;
+}
+
+/* CADA PRODUCTO */
+.producto {
+    display: inline-block;
+    background-color: white;
+    width: 220px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* IMAGENES */
+.producto img {
+    width: 200px;
+    height: 150px;
+}
+
+/* NOMBRE */
+.producto h3 {
+    color: black;
+}
+
+/* PRECIO */
+.producto p {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* BOTON */
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+/* PIE DE PAGINA */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+.Carrito{
+ background-color: Black;
+ margin: 20px;
+ padding: 20px;	
+ border:2px solid #176b87;
+ text-align:center;
+color: white;
+ }
+.Carrito{
+list-style:10opx;
+padding:20px;		
+}
+
+.contenedor-flex{
+display:flex;
+	text-align:center;
+	justifi-content:center;
+	flex-wrap-wrap;
+	gap:20px;
+	padding:20px;
+	
+	
+	
+}
+
+
+
+
+
+
